@@ -1,7 +1,7 @@
 import accessible_output2.outputs.auto
 import sys
 out = accessible_output2.outputs.auto.Auto()
-out.output("Welcome to File Transfer Time Calculator. This tool allows you to estimate how long it will take for data to transfer from one location to another based on data size and transfer speed.")
+out.output("Welcome to File Transfer Time Calculator v2. This tool allows you to estimate how long it will take for data to transfer from one location to another based on data size and transfer speed.")
 def calculate_file_transfer_time():
 	out=accessible_output2.outputs.auto.Auto()
 	out.output("Please type the size of the file you're trying to transfer in megabytes")
