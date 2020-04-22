@@ -9,3 +9,35 @@
 <p>File Transfer Time Calculator is a free tool that allows you to estimate the time it will take for data to transfer from one location to another. It gets this information from the size of the data being transferred and the speed at which the data is being transferred.</p>
 </body>
 </html>
+<h3>System Requirements</h3>
+<p>This program supports Windows XP and higher. You must not be running MacOS or Linux, unless you're running the program from its source script. If you're running from source, the accessible_output2 library must be installed in your python3 environment. On Windows, the additional PyWin32 library must be installed. However, if running from binary, all these dependencies have been included, so there's no need to install anything extra. Running from the binary is recommended if you aren't comfortable with running from a source code file, or if you're just not very computer literate.</p>
+
+<h3>How to Run</h3>
+<p>Extract the downloaded zip file to a folder of your choice. Then navigate to that folder and launch one of the following files.</p>
+<ul>
+<li>If running from binary, launch fttc2.exe.</li>
+<li>If running from the source file, launch fttc2.py.</li>
+</ul>
+<p>You might have to show file extentions from within your operating system if you don't see .exe or .py at the end of the filename.</p>
+
+<h3>How to Use</h3>
+<ol>
+<li>Type the size of the data you're transferring in megabytes (MB). If the size is presented to you in kilobytes (KB), divide it by 1024 to convert it into megabytes (MB). Or, if it is shown in gigabytes (GB) times by 1024 to convert to megabytes (MB)</li>
+<li>Type your data transfer speed in megabits (Mb). If the speed is shown to you in megabytes (MB), times it by 8 to convert into megabits (Mb). For example, 5 megabytes (MB) times 8 is equal to 40 megabits (Mb)</li>
+<li>The result of the calculation will then be spoken aloud by your screen reader. If no screen reader is running, SAPI5 will speak the result. If you have a braille display connected to your computer, and your screen reader sees it, the result will appear on the braille display as well as being spoken aloud.</li>
+<li>You will then be asked if you want to do another calculation. If you do, type the letter y (lower case) and press enter. If not, type the letter n (lower case) and press enter.</li>
+</ol>
+
+<h3>Advanced Info (for techies only!)</h3>
+<p>This utility was written in Python 3.4, and compiled using PyInstaller 3.4. The accessible_output2 module, included in the compiled binary package, is used to pipe text output to a screen reader or system speech API. The program can run on both 32-bit (x86) and 64-bit (x64) system architectures.</p>
+
+<h3>Downloads</h3>
+<ul>
+<li><a href="https://github.com/fireseed66/File-Transfer-Time-Calculator/releases/download/v2.1/fttc21.zip">Latest Binary Release</a></li>
+<li><a href="https://github.com/fireseed66/File-Transfer-Time-Calculator/archive/v2.1.zip">Latest Source Code Release</a></li>
+</ol>
+
+<h3>Credits</h3>
+<p>Big shoutout to Destructatron for helping me defeat bugs in the code. This guy is awesome. He's not the best when it comes to Python, but he's come a long way and he's a good friend to have in your life. If you want, you can <a href="https://www.twitter.com/destructatron04">follow him on twitter</a>.</p>
+
+Copyright &copy; 2020 Fireseed.
